@@ -9,7 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "api": "json-server --watch db.json",
-    "http": "http-server -p 8080 -c-1 dist/MyFinalIonic"
+    "http": "http-server -p 8080 -c-1 dist/MyFinalIonic",
+    "deploy:ci": "ng deploy --base-href=/MyFinalIonic/"
   },
   "private": true,
   "dependencies": {
