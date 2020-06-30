@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1593507261057,
+  "timestamp": 1593507715864,
   "index": "/MyFinalIonic/index.html",
   "assetGroups": [
     {
@@ -182,8 +182,8 @@
         "/MyFinalIonic/common-es5.787fed6c88942b571d48.js",
         "/MyFinalIonic/favicon.ico",
         "/MyFinalIonic/index.html",
-        "/MyFinalIonic/main-es2015.95b30cfa322588aeba06.js",
-        "/MyFinalIonic/main-es5.95b30cfa322588aeba06.js",
+        "/MyFinalIonic/main-es2015.100db713b2662a19b19d.js",
+        "/MyFinalIonic/main-es5.100db713b2662a19b19d.js",
         "/MyFinalIonic/manifest.webmanifest",
         "/MyFinalIonic/polyfills-core-js-es2015.ce47e0beaa8754f121dc.js",
         "/MyFinalIonic/polyfills-core-js-es5.ce47e0beaa8754f121dc.js",
@@ -401,9 +401,9 @@
     "/MyFinalIonic/common-es2015.787fed6c88942b571d48.js": "2634c6f1e6055c8b0aa4f38c54faea50c26a352c",
     "/MyFinalIonic/common-es5.787fed6c88942b571d48.js": "4f16208880f1e36208abbe684c332346fa3d5599",
     "/MyFinalIonic/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/MyFinalIonic/index.html": "f21d3da763a82c34fbbec5160f7883ad1713727f",
-    "/MyFinalIonic/main-es2015.95b30cfa322588aeba06.js": "85feaf32bb85804e66d56f892bd2284b940645bd",
-    "/MyFinalIonic/main-es5.95b30cfa322588aeba06.js": "599b68b92b5913fa1d7f483e1ea1913973399279",
+    "/MyFinalIonic/index.html": "b18e221e41271c5b2b782caeec893292b4172607",
+    "/MyFinalIonic/main-es2015.100db713b2662a19b19d.js": "f6416b6d107642a77888138e0548118e17b7367b",
+    "/MyFinalIonic/main-es5.100db713b2662a19b19d.js": "34a2705821a98bcae5f89650f7645e273b91af67",
     "/MyFinalIonic/manifest.webmanifest": "bd3fb7ecbf72615edcd42aa85df23fb4d3ecb9f8",
     "/MyFinalIonic/polyfills-core-js-es2015.ce47e0beaa8754f121dc.js": "fe18301772fedd9faed9155d0253b25bad547329",
     "/MyFinalIonic/polyfills-core-js-es5.ce47e0beaa8754f121dc.js": "2238555b018c094b6a5445b2ea64d26959264b3a",
