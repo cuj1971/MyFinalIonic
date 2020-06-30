@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "api": "json-server --watch db.json",
     "http": "http-server -p 8080 -c-1 dist/MyFinalIonic",
-    "deploy:ci": "ng deploy --base-href=/MyFinalIonic/"
+    "deploy:ci": "ng deploy --base-href=/MyFinalIonic/  --name='cuj1971' --email='mmcconnachie@gmail.com'"
   },
   "private": true,
   "dependencies": {
