@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  url: '/myfinalionic/assets/db.json'
+  url: '/MyFinalIonic/assets/db.json'
 };
