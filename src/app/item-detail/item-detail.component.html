@@ -1,0 +1,21 @@
+<!-- Default back button -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle class="{{item?.level |colour}}" color="light">{{item?.level | level}}</ion-card-subtitle>
+        <ion-card-title>{{item?.id}} {{item?.name}} </ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        {{item?.info}}
+        {{ wiki?.extract}}
+      </ion-card-content>
+    </ion-card>
+  </ion-content>

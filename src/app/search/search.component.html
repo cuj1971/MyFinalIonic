@@ -1,0 +1,11 @@
+<ion-content>
+    <ion-list-header lines="none">
+        <ion-label color="light">Search</ion-label>
+    </ion-list-header>
+        
+    <ion-input [(ngModel)]="searchInput" type="search"  [ngStyle]="{'background-color': '#383a3e'}" color='light'></ion-input>
+    <ion-button fill="outline" (click)="search()">
+        <ion-icon name="search-outline" [ngStyle]="{'background-color': '#383a3e'}" > search</ion-icon>
+    </ion-button>
+    
+</ion-content>

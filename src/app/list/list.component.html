@@ -1,0 +1,24 @@
+<ion-content *ngIf="additives$|async as additives" >
+  <ion-list-header lines="none" [ngStyle]="{'background-color': 'black'}">
+    <ion-label color="light">
+      <h3>List of Additives</h3>
+    </ion-label>
+  </ion-list-header>
+    <ion-list *ngFor="let item of additives.slice(0, max); index as i">
+        <ion-item routerLink=":id" detail [routerLink]="item.id" class="ion-no-padding">
+          <ion-thumbnail slot="start" [ngStyle]="{'background-color': item.level|colour}">
+            <div class="ion-text-center">
+              <ion-text color="light"><h3>{{ item.id }}</h3></ion-text>
+            </div>
+          </ion-thumbnail>
+            <ion-label>
+              <ion-text color="primary"><h3>{{ item.name }}</h3></ion-text>
+              <p>{{ item.type }}</p>
+            </ion-label>
+        </ion-item>
+    </ion-list>
+    <div class="ion-text-center">
+      <ion-button fill="outline" (click)="getMoreAdditives()">+</ion-button>  
+    </div>    
+</ion-content>
+
