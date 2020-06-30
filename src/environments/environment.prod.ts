@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  url: '/myfinalionic/assets/db.json'
 };

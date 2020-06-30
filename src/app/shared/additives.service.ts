@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable} from 'rxjs';
 import { first, map } from 'rxjs/operators';
+import {environment} from '../../environments/environment'
 
 @Injectable({
   providedIn: 'root'
@@ -20,7 +21,7 @@ export class AdditivesService {
   public async fetchData() {
   
    // let apiEndpoint = `http://localhost:3000/additives`;
-     let apiEndpoint = '/myfinalionic/assets/db.json';
+     let apiEndpoint = environment.url;
     //let apiEndpoint = '/assets/db.json';
    
     
