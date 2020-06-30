@@ -20,7 +20,8 @@ export class AdditivesService {
   public async fetchData() {
   
    // let apiEndpoint = `http://localhost:3000/additives`;
-    let apiEndpoint = '/assets/db.json';
+    //let apiEndpoint = '/assets/db.json';
+    let apiEndpoint = '../../assets/db.json';
     
     const data = await this.http.get<any>(apiEndpoint).pipe(
     //  first(),
